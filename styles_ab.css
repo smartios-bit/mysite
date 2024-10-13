@@ -30,7 +30,7 @@ p {
 }
 
 
-#connectButton {
+#button1 {
     position: relative;
     top: 60px; /* Сдвигаем заголовок на 100px вверх */
     padding: 10px 30px; /* Увеличиваем отступы для кнопки */
@@ -48,7 +48,7 @@ p {
 
 
 
-#button1 {
+button1 {
     position: relative;
     top: 60px; /* Сдвигаем заголовок на 100px вверх */
     padding: 10px 30px; /* Увеличиваем отступы для кнопки */
