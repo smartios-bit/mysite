@@ -1,0 +1,47 @@
+/* Задаем общий фон для всех страниц */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url('wbeco.jpg'); /* Убедитесь, что имя файла правильное */
+    background-size: cover; /* Картинка занимает весь экран */
+    background-repeat: no-repeat; /* Не повторять фон */
+    background-position: center; /* Центрирование картинки */
+    color: white;
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Задаем высоту страницы */
+    display: flex; /* Используем flexbox для центрирования содержимого */
+    flex-direction: column; /* Вертикальное выравнивание */
+    justify-content: center; /* Центрируем по вертикали */
+    align-items: center; /* Центрируем по горизонтали */
+}
+
+
+
+h1 {
+    position: relative;
+    top: -200px; /* Сдвигаем заголовок на 100px вверх */
+}
+
+
+
+/* Стили для кнопок */
+button {
+    position: relative;
+    top: -200px; /* Сдвигаем заголовок на 100px вверх */
+    padding: 10px 30px; /* Увеличиваем отступы для кнопки */
+    background-color: #9c0000; /* Цвет фона кнопки */
+    color: white; /* Цвет текста кнопки */
+    border: none; /* Убираем границу */
+    cursor: pointer; /* Указываем, что элемент кликабельный */
+    font-size: 16px; /* Размер текста кнопки */
+    border-radius: 5px; /* Скругляем углы кнопки */
+    transition: background-color 0.3s; /* Плавный переход цвета фона при наведении */
+    width: auto; /* Автоматическая ширина */
+    max-width: 200px; /* Максимальная ширина кнопки */
+    min-width: 100px; /* Минимальная ширина кнопки */
+}
+
+button:hover {
+    background-color: #720000; /* Цвет кнопки при наведении */
+}
